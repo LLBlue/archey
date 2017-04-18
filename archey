@@ -437,7 +437,7 @@ if DetectDistro == 'LinuxMint':
 %s             ??????+.?                %s
 %s              ,??~=:                  %s
 %s                ???,                  %s
-%s""" % ( yellowB, result[0], yellowB, result[1], yellowB, result[2], yellowB, result[3], yellowB, result[4], yellowB, result[5], yellowB, result[6], yellowB, whiteB, yellowB, result[7], yellowB, whiteB, greenB, whiteB, yellowB, result[8], yellowB, whiteB, greenB, whiteB, yellowB, result[9], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[10], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[11], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[12], yellowB, whiteB, greenB, whiteB, yellowB, result[13], yellowB, greenB, yellowB result[14], yellowB, greenB, whiteB, greenB, yellowB, result[15], yellowB, greenB, yellowB, result[16], greenB, result[17], greenB, result[18], greenB, result[19], clear )
+%s""" % ( yellowB, result[0], yellowB, result[1], yellowB, result[2], yellowB, result[3], yellowB, result[4], yellowB, result[5], yellowB, result[6], yellowB, whiteB, yellowB, result[7], yellowB, whiteB, greenB, whiteB, yellowB, result[8], yellowB, whiteB, greenB, whiteB, yellowB, result[9], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[10], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[11], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[12], yellowB, whiteB, greenB, whiteB, yellowB, result[13], yellowB, greenB, yellowB, result[14], yellowB, greenB, whiteB, greenB, yellowB, result[15], yellowB, greenB, yellowB, result[16], greenB, result[17], greenB, result[18], greenB, result[19], clear )
 
 if screen == 'True':
  screenshot()
