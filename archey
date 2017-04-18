@@ -417,25 +417,27 @@ if DetectDistro == 'CrunchBang':
 %s""" % ( whiteN, result[0], whiteN, result[1], whiteN, result[2], whiteN, result[3], whiteN, result[4], whiteN, result[5], whiteN, result[6], whiteN, result[7], whiteN, result[8], whiteN, result[9], whiteN, result[10], whiteN, result[11], whiteN, result[12], whiteN, result[13], whiteN, result[14], whiteN, result[15], whiteN, result[16], whiteN, result[17], clear )                                    
 
 if DetectDistro == 'LinuxMint':
- print """%s                                     %s
-%s MMMMMMMMMMMMMMMMMMMMMMMMMmds+.      %s
-%s MMm----::-://////////////oymNMd+`   %s
-%s MMd      %s/++                %s-sNMd:  %s
-%s MMNso/`  %sdMM    `.::-. .-::.` %s.hMN: %s
-%s ddddMMh  %sdMM   :hNMNMNhNMNMNh: `%sNMm %s
-%s     NMm  %sdMM  .NMN/-+MMM+-/NMN` %sdMM %s
-%s     NMm  %sdMM  -MMm  `MMM   dMM. %sdMM %s
-%s     NMm  %sdMM  -MMm  `MMM   dMM. %sdMM %s
-%s     NMm  %sdMM  .mmd  `mmm   yMM. %sdMM %s
-%s     NMm  %sdMM`  ..`   ...   ydm. %sdMM %s
-%s     hMM-  %s+MMd/-------...-:sdds %sMMM %s
-%s     -NMm-  %s:hNMNNNmdddddddddy/` %sdMM %s
-%s      -dMNs-``%s-::::-------.``    %sdMM %s
-%s       `/dMNmy+/:-------------:/yMMM %s
-%s          ./ydNMMMMMMMMMMMMMMMMMMMMM %s
-%s                                     %s
-%s                                     %s
-%s""" % ( whiteB, result[0], whiteB, result[1], whiteB, result[2], whiteB, greenB, whiteB, result[3], whiteB, greenB, whiteB, result[4], whiteB, greenB, whiteB, result[5], whiteB, greenB, whiteB, result[6], whiteB, greenB, whiteB, result[7], whiteB, greenB, whiteB, result[8], whiteB, greenB, whiteB, result[9], whiteB, greenB, whiteB, result[10], whiteB, greenB, whiteB, result[11], whiteB, greenB, whiteB, result[12], whiteB, greenB, whiteB, result[13], whiteB, result[14], whiteB, result[15], whiteB, result[16], whiteB, result[17], clear )
+ print """%s                 ~III                 %s
+%s               ,IIIIIII               %s
+%s              7IIIIIIIIII             %s
+%s            IIIIIIIIIIIIII:           %s
+%s           IIIIIIIIIIIIIIIII          %s
+%s         :IIIIIIIIIIIIIIIIIII,        %s
+%s        IIIIIIIIIIIIIIIIIIIIIII       %s
+%s       IIIIII%s~777777~%sIIIIIIIIIII      %s
+%s      IIIIII$s77%s~++?~%s777%sIIIIIIIIIII,    %s
+%s    ~IIIIII%s??777%s=%s77I+7:%sIIIIIIIIIII=   %s
+%s   IIIIIII%s:?%s7%s7777777%s7%s7I%sIIIIIIIIIIIII  %s
+%s   IIIIIII%s?%s?7=%s7777=%s?77%s7%sIIIIIIIIIIII   %s
+%s   IIIIIII%s7I%s7%s7~+7+77%s?%s77%sIIIIIIIIIII+   %s
+%s    :IIIII%s7777%s+????%s777=%sIIIIIIIIII     %s
+%s      IIII%s??+?????????:%sIIIIIIII       %s
+%s        II.%s???%s~,+~%s????I%sIIIII:         %s
+%s         ~I%s??????????.:%sIII            %s
+%s             ??????+.?                %s
+%s              ,??~=:                  %s
+%s                ???,                  %s
+%s""" % ( yellowB, result[0], yellowB, result[1], yellowB, result[2], yellowB, result[3], yellowB, result[4], yellowB, result[5], yellowB, result[6], yellowB, whiteB, yellowB, result[7], yellowB, whiteB, greenB, whiteB, yellowB, result[8], yellowB, whiteB, greenB, whiteB, yellowB, result[9], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[10], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[11], yellowB, whiteB, greenB, whiteB, greenB, whiteB, yellowB, result[12], yellowB, whiteB, greenB, whiteB, yellowB, result[13], yellowB, greenB, yellowB result[14], yellowB, greenB, whiteB, greenB, yellowB, result[15], yellowB, greenB, yellowB, result[16], greenB, result[17], greenB, result[18], greenB, result[19], clear )
 
 if screen == 'True':
  screenshot()
