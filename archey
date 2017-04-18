@@ -56,6 +56,7 @@ wm_dict = {
  'awesome': 'Awesome',
  'beryl': 'Beryl',
  'blackbox': 'Blackbox',
+ 'cinnamon': 'Cinnamon', 
  'compiz': 'Compiz',
  'dwm': 'DWM',
  'enlightenment': 'Enlightenment',
@@ -137,16 +138,17 @@ def output(key, value):
 def ram_display():
  raminfo = Popen(['free', '-m'], stdout=PIPE).communicate()[0].split('\n')
  ram = ''.join(filter(re.compile('M').search, raminfo)).split()
- used = int(ram[2]) - int(ram[5]) - int(ram[6])
- usedpercent = ((float(used) / float(ram[1])) * 100)
+ used = ram[2]
+ total = ram[1]
+ usedpercent = ((float(used) / float(total)) * 100)
  if usedpercent <= 33:
-  ramdisplay = '%s%s MB %s/ %s MB' % (greenB, used, clear, ram[1])
+  ramdisplay = '%s%s MB %s/ %s MB' % (greenB, used, clear, total)
   output('RAM', ramdisplay)
  if usedpercent > 33 and usedpercent < 67:
-  ramdisplay = '%s%s MB %s/ %s MB' % (yellowB, used, clear, ram[1])
+  ramdisplay = '%s%s MB %s/ %s MB' % (yellowB, used, clear, total)
   output('RAM', ramdisplay)
  if usedpercent >= 67:
-  ramdisplay = '%s%s MB %s/ %s MB' % (redB, used, clear, ram[1])
+  ramdisplay = '%s%s MB %s/ %s MB' % (redB, used, clear, total)
   output('RAM', ramdisplay)
   
 # Screenshot Function.
@@ -425,7 +427,7 @@ if DetectDistro == 'LinuxMint':
 %s         :IIIIIIIIIIIIIIIIIII,        %s
 %s        IIIIIIIIIIIIIIIIIIIIIII       %s
 %s       IIIIII%s~777777~%sIIIIIIIIIII      %s
-%s      IIIIII$s77%s~++?~%s777%sIIIIIIIIIII,    %s
+%s      IIIIII%s77%s~++?~%s777%sIIIIIIIIIII,    %s
 %s    ~IIIIII%s??777%s=%s77I+7:%sIIIIIIIIIII=   %s
 %s   IIIIIII%s:?%s7%s7777777%s7%s7I%sIIIIIIIIIIIII  %s
 %s   IIIIIII%s?%s?7=%s7777=%s?77%s7%sIIIIIIIIIIII   %s
